@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.navLogo{
+    height: 50px;
+    width: 110px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+/**border class**/
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+    border-radius: 5px;
+}
+
+/**box2**/
+.addFirst{
+    margin-left: 15px;
+}
+.addSecond{
+    margin-left: 3px;
+}
+.navAdress{
+    font-size: 12px;
+    margin: 5px 2px 5px 0px;
+    padding-left: 9px;
+    padding-right: 9px;
+    height: 50px;
+    align-content: center;
+
+}
+.iconAdress{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+/**box3**/
+
+.navSearch{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+}
+@media (max-width: 800px) {
+    .navSearch .searchSelect .searchInput{
+      width: auto;
+    }
+  }
+.searchSelect{
+    background-color: #f3f3f3;
+    width: 60px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.searchInput{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.searchIcon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0f1111;
+    background-color: #febd68;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.navSearch:hover{
+    border: solid orange;
+    border-radius: 8px;
+}
+
+/**box 4**/
+.navAccount-list{
+font-size: 0.85rem;
+font-weight: 700;
+}
+.navHello{
+    font-size: 0.7rem;
+    margin-right: 1.7rem;
+}
+.navSignin{
+    padding: 8px;
+}
+/**cart**/
+.navCart i{
+    font-size: 30px;
+}
+.navCart{
+    font-weight: 700;
+    font-size: 0.85rem;
+    padding: 8px;
+}
+/**panel**/
+.panel{
+    background-color: #232F3E;
+    height: 40px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+.panel-ops p{
+    display: inline;
+    margin-right:1.5rem ;
+}
+.panel-ops{
+    width: 75%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.92rem;
+}
+
+.panel-all i{
+    font-size: 1.2rem ;
+}
+.panel-all{
+    font-size: 0.9rem;
+}
+
+/**hero**/
+.hero-section{
+    display: flex;
+    background-image: url("hero_image.jpg");
+    height: 400px;
+    background-size:cover ;
+}
+@media screen and (max-width: 1200px) {
+    .hero-section{
+        float: none;
+        width:100%;
+    }
+  }
+/**content**/
+.content{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    background-color:#E1E3E4;
+    /*background-color: #FFD004;*/
+    /*background-color: #4E01C1;*/
+}
+.box{
+    
+    width: 23%;
+    height: 22rem;
+    padding: 20px ,0px, 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    background-color: white;
+}
+.boximage{
+    height: 15rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 0.8rem ; 
+    margin-right: 0.8rem;
+    
+}
+
+/*FOR RESPONSIVE BOXES*/
+/* Create four equal columns that floats next to each other */
+.column {
+    box-sizing: border-box;
+    float: left;
+    padding-top: 20px;
+  }
+  
+/* Clear floats after the columns */
+.row:after {
+    content:"";
+    display: table;
+    clear: both;
+  }
+  
+  /* On screens that are 1000px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 992px) {
+.column {
+      width: 40%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+.column {
+      width: 100%;
+    }
+  }
+
+/*footer panel*/
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1{
+    background-color:#37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+}
+ 
